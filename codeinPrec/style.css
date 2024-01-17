@@ -1,0 +1,192 @@
+body{
+    background-color: #f1f1f1;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    text-align: center;
+}
+.sec-nav .img img{
+    width: 55px;
+    height: 55px;
+    margin-top: 20px;
+}
+.sec-nav a:hover{
+    color: blue;
+}
+.sec-nav{
+    
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    border-top: 1px solid whitesmoke;
+    border-bottom: 1px solid whitesmoke;
+    background-color: white;
+    
+    
+    
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+    background-color: blue;
+    
+    width: 100%;
+    
+}
+nav input{
+    width: 430px;
+    height: 30px;
+    margin-left: 40px;
+margin-top: 10px;
+}
+nav button{
+    height: 35px;
+    width: 102px;
+    color: blue;
+    background-color: white;
+    margin-left: 40px;
+    margin-top: 10px;
+
+
+}
+.img1 a{
+    font-size: 10px;
+    color:yellowgreen
+}
+.logo{
+    width: 100px;
+    height: 20px;
+    margin-top: 10px;
+
+}
+ .icon{
+
+    display: flex;
+    justify-content: space-between;
+
+}
+.icon h1{
+    font-size: large;
+    margin-left: 30px;
+    color: white;
+}
+/* main section */
+.img_center img{
+    width: 95%;
+    height: 40%;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+}
+.img_center{
+    width: 100%;
+    height: 45%;
+}
+.cardoffer{
+    height: 150px;
+    width: 100%;
+    background-color: white;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+.cardoffer img{
+    width:50% ;
+    height: 100px;
+    margin-top: 20px;
+    border-radius: 5px;
+    
+}
+.phone{
+    overflow:scroll;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    width: 100%;
+    height: 340px;
+    background-color: white;margin-top: 20px;
+}
+.phone img{
+    margin-top: 20px;
+    width: 200px;
+    height: 200px;
+    margin-left: 60px;
+
+    
+}
+.offer{
+    
+    margin-top: 10px;
+    width: 100%;
+    height: 210px;
+}
+.off1{
+    height: 200px;
+    width: 480px;
+    background-color: white;
+    justify-content: center;
+    float: left;
+    margin-left: 8px;
+    border: 1px solid white;
+    border-radius: 2px;
+    
+}
+.off1 img{
+    height: 170px;
+    width: 420px;
+    margin: 18px;
+    float: left;
+    border-radius: 10px;
+}
+/* shoes  */
+.shoe1{
+    
+}
+.shoess{
+    overflow: auto;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    height: 340px;
+    width: 100%;
+    background-color: white;margin-top: 20px;
+}
+.shoe1 img{
+    margin-top: 20px;
+    width: 200px;
+    height: 200px;
+    margin-left: 60px;
+
+    
+}
+/* payment */
+.payment{
+    
+    margin-top: 10px;
+    width: 100%;
+    height: 210px;
+}
+.pay1{
+    height: 200px;
+    width: 480px;
+    background-color:rgb(255, 255, 255);
+    justify-content: center;
+    float: left;
+    margin-left: 8px;
+    border: 1px solid white;
+    border-radius: 2px;
+    
+}
+.pay1 img{
+    height: 170px;
+    width: 420px;
+    margin: 18px;
+    float: left;
+    border-radius: 10px;
+}

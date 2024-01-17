@@ -1,0 +1,17 @@
+C:\Users\patel\OneDrive\Documents\COLLEGE\vb.net\prectice\prectice\bin\Debug\net6.0-windows\prectice.exe
+C:\Users\patel\OneDrive\Documents\COLLEGE\vb.net\prectice\prectice\bin\Debug\net6.0-windows\prectice.deps.json
+C:\Users\patel\OneDrive\Documents\COLLEGE\vb.net\prectice\prectice\bin\Debug\net6.0-windows\prectice.runtimeconfig.json
+C:\Users\patel\OneDrive\Documents\COLLEGE\vb.net\prectice\prectice\bin\Debug\net6.0-windows\prectice.dll
+C:\Users\patel\OneDrive\Documents\COLLEGE\vb.net\prectice\prectice\bin\Debug\net6.0-windows\prectice.pdb
+C:\Users\patel\OneDrive\Documents\COLLEGE\vb.net\prectice\prectice\obj\Debug\net6.0-windows\prectice.vbproj.AssemblyReference.cache
+C:\Users\patel\OneDrive\Documents\COLLEGE\vb.net\prectice\prectice\obj\Debug\net6.0-windows\prectice.Form1.resources
+C:\Users\patel\OneDrive\Documents\COLLEGE\vb.net\prectice\prectice\obj\Debug\net6.0-windows\prectice.vbproj.GenerateResource.cache
+C:\Users\patel\OneDrive\Documents\COLLEGE\vb.net\prectice\prectice\obj\Debug\net6.0-windows\prectice.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\patel\OneDrive\Documents\COLLEGE\vb.net\prectice\prectice\obj\Debug\net6.0-windows\prectice.AssemblyInfoInputs.cache
+C:\Users\patel\OneDrive\Documents\COLLEGE\vb.net\prectice\prectice\obj\Debug\net6.0-windows\prectice.AssemblyInfo.vb
+C:\Users\patel\OneDrive\Documents\COLLEGE\vb.net\prectice\prectice\obj\Debug\net6.0-windows\prectice.vbproj.CoreCompileInputs.cache
+C:\Users\patel\OneDrive\Documents\COLLEGE\vb.net\prectice\prectice\obj\Debug\net6.0-windows\prectice.dll
+C:\Users\patel\OneDrive\Documents\COLLEGE\vb.net\prectice\prectice\obj\Debug\net6.0-windows\refint\prectice.dll
+C:\Users\patel\OneDrive\Documents\COLLEGE\vb.net\prectice\prectice\obj\Debug\net6.0-windows\prectice.pdb
+C:\Users\patel\OneDrive\Documents\COLLEGE\vb.net\prectice\prectice\obj\Debug\net6.0-windows\prectice.genruntimeconfig.cache
+C:\Users\patel\OneDrive\Documents\COLLEGE\vb.net\prectice\prectice\obj\Debug\net6.0-windows\ref\prectice.dll

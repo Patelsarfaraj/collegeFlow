@@ -1,0 +1,60 @@
+Imports System.Windows.Forms.VisualStyles.VisualStyleElement
+Imports System.Data.OleDb
+Imports System.Data
+
+
+
+
+
+
+ Sub view()
+        Dim conn As New OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\greentech 3\Documents\clg\q4.accdb")
+        conn.Open()
+        Dim adp As New OleDbDataAdapter("select * from medical ", conn)
+
+        Dim ds As New DataSet
+        adp.Fill(ds, "medical")
+        DataGridView1.DataSource = ds.Tables("medical")
+    End Sub
+    Sub insert1()
+        Dim str As String = ComboBox1.SelectedItem.ToString()
+        Dim conn As New OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\greentech 3\Documents\clg\q4.accdb")
+        conn.Open()
+        Dim cmd As New OleDbCommand()
+        cmd.Connection = conn
+        cmd.CommandType = CommandType.Text
+        cmd.CommandText = "insert into medical values(" & TextBox1.Text & ",'" & TextBox2.Text & "','" & str & "','" & TextBox3.Text & "'," & TextBox4.Text & ")"
+
+        cmd.ExecuteNonQuery()
+        MsgBox("done")
+
+        conn.Close()
+        view()
+    End Sub
+    Sub update1()
+        Dim str As String = ComboBox1.SelectedItem.ToString()
+        Dim conn As New OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\greentech 3\Documents\clg\q4.accdb")
+        conn.Open()
+        Dim cmd As New OleDbCommand()
+        cmd.Connection = conn
+        cmd.CommandType = CommandType.Text
+        cmd.CommandText = "update  medical set name= '" & TextBox2.Text & "',type='" & str & "', company='" & TextBox3.Text & "',rate=" & TextBox4.Text & " where mid=" & TextBox1.Text & ""
+        cmd.ExecuteNonQuery()
+        MsgBox("done")
+        conn.Close()
+        view()
+    End Sub
+    Sub delete1()
+        Dim conn As New OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\greentech 3\Documents\clg\q4.accdb")
+        conn.Open()
+        Dim cmd As New OleDbCommand()
+        cmd.Connection = conn
+        cmd.CommandType = CommandType.Text
+        cmd.CommandText = "delete from medical where  mid=" & TextBox1.Text & ""
+        cmd.ExecuteNonQuery()
+        MsgBox("done")
+        conn.Close()
+        view()
+    End Sub
+
+   
